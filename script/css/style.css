@@ -1,0 +1,31 @@
+/*清零*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font:bold 14px/24px "MicrosoftYaHei",Verdana, Arial, Helvetica, sans-serif; }
+img{border:none;}
+ul,li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+/*纯css tab切换*/
+h3{font-size:1.5em;}
+/*1*/
+#box{width:400px;height:300px;}
+#tab_nav{height:25px;line-height:24px;}
+#tab_nav li{float:left;margin:0 3px;border:1px solid #999;border-bottom:none;height:24px;width:60px;text-align:center;background:#FFF;}
+a{color:green;text-decoration:none;}
+a:hover{color:red}
+#tab_content{width:398px;height:273px;border:1px solid #999;font:bold 4em/273px;text-align:center;background-color:#FFF;overflow:hidden;}
+#t_1,#t_2,#t_3{width:100%;height:273px;}
+
+
+/* 每个checked,只有一个内容块被设置为显示
+#label01:checked ~#content li:nth-child(1){display:block;}
+#label02:checked ~#content li:nth-child(2){display:block;}
+#label03:checked ~#content li:nth-child(3){display:block;}
+其他则设置为隐藏
+ */
+
+
+
+
